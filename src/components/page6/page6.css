@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+.page-6{
+    position: relative;
+    }
+    .image-8{
+        height: 730px;
+        padding-left: 6%;
+        margin-bottom: 0;
+        position: absolute;
+    }
+    .tittle-5{
+        text-align: left;
+        font-weight: bold;
+        color: black;
+        top: 5%;
+        margin-top: 0;
+        margin-bottom: 3%;
+        padding-left: 48%;
+        font-size: 7vw;
+        text-transform: uppercase;
+    }
+    .page-6text{
+        display: flex;
+        flex-direction: column;
+    }
+    .p14{
+        color: black;
+        font-size: 1.8vw;
+        width: 25%;
+    }
+    .p15{
+        color: black;
+        font-size: 1.3vw;
+        width: 90%;
+    }
+    .p16{
+        color: black;
+        font-size: 1.8vw;
+        width: 25%;
+    }
+    .p17{
+        color: black;
+        font-size: 1.3vw;
+        width: 90%;
+    }
+    .p14-15{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 48%;
+    }
+    .p16-17{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 48%;
+        margin-top: 3%;
+    }    
+
+    @media screen and (max-width: 700px) {
+        .page-6{
+            flex-direction: column;
+        }
+    }

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+.tittle-4{
+    top: 1%;
+    font-weight: bold;
+    color: black;
+    padding-left: 6.2%;
+    margin: 1.2%;
+    line-height: 95%;
+    font-size: 6.8vw;
+    text-transform: uppercase; 
+    position: absolute;
+}
+.page-5images{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 6%;
+    padding-left: 0;
+    gap: 25px;
+    position: relative;
+}
+.image-6{
+    height: 300px;
+}
+.image-7{
+    height:660px;
+}
+.page-5text{
+    display: flex;
+}
+.page-5{
+    position: relative;
+}
+
+.p10{
+    color: black;
+    font-weight: bold;
+}
+.p11{
+    color: black;
+}
+.p12{
+    color: black;
+    font-weight: bold;
+}
+.p13{
+    color: black;
+}
+.p10-11{
+    gap: 2%;
+    padding-left: 7%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 1.2vw;
+    width: 100%;
+}
+.p12-13{
+    gap: 30%;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 1.2vw;
+    width: 100%; 
+}
+
+@media screen and (max-width: 700px) {
+    .page-5{
+        flex-direction: column;
+    }
+}

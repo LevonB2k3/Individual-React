@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+.tittle-3{
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    top: 5%;
+    margin: 0;
+    padding-left: 22%;
+    font-size: 4vw;
+    width: 100%;
+}
+.page-4{
+    display: flex;
+}
+.image-5{
+    height: 740px;
+    padding-left: 55%;
+}
+.p8{
+    color: black;
+}
+.p9{
+    color: black;
+}
+.page-4parg{
+    display: flex;
+    padding-left: 22%;
+    margin: 0;
+    gap: 12%;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 700px) {
+    .page-4{
+        flex-direction: column;
+    }
+}

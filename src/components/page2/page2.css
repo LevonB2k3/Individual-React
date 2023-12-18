@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+.tittle-1{
+    font-weight: bold;
+    color: black;
+    top: 5%;
+    margin: 5%;
+    padding-left: 11%;
+    font-size: 7.5vw;
+    text-transform: uppercase;
+    width: 50%;
+    }
+    .p2{
+        color: black;
+        padding-left: 17%;
+        font-size: 3.5vw; 
+        margin-top: 13%;  
+    }
+    .p3{
+        color: black;
+        padding-left: 17%;
+        font-size: 20px; 
+        margin: 0;
+    }
+    .page-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .page-2text {
+        flex-grow: 1;
+        justify-self: flex-start;
+    }
+    
+    .image-2 {
+        height: 700px;
+        margin-top: 31px;
+        padding-right: 8%; 
+    }
+
+    @media screen and (max-width: 700px) {
+        .page-2{
+            flex-direction: column;
+        }
+    }
+    
